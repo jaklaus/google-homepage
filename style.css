@@ -1,0 +1,43 @@
+html{
+	height: 100%;
+}
+
+img{
+	margin: 0 auto;
+	display: block;
+	padding-top: 100px;
+	width: 400px;
+
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	width: 400px;
+	height: 30px;
+	border-color: #ECECEC;
+	border-width: .5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+button {
+	border: none;
+	background-color: #ECECEC;
+	padding: 8px;
+	margin-right: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #737373;
+}
+
+.button_div{
+	margin-top: 30px;
+}
+
+button:hover{
+	color: #000000;
+	border-color: #737373;
+};
