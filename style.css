@@ -2,12 +2,17 @@ html{
 	height: 100%;
 }
 
-img{
+#logo{
 	margin: 0 auto;
 	display: block;
 	padding-top: 100px;
-	width: 400px;
 
+}
+
+img {
+	width: 400px;
+	margin: 0 auto;
+	display: block;
 }
 
 form {
@@ -41,3 +46,43 @@ button:hover{
 	color: #000000;
 	border-color: #737373;
 };
+
+.div_ul	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+	display: block;
+	color: #0E0E0E;
+	margin-right: 10px;
+}
+
+#pic {
+	width: 35px;
+	border-radius: 30px;
+	display: block;
+	float: right;
+	margin: 0 20px 0 10px;
+}
+
+.footer {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ECECEC;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.footer li {
+	margin: 0 auto;
+	display: block;
+	padding: 20px;
+}
