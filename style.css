@@ -5,6 +5,7 @@ html{
 body{
 	margin: 0;
 	font-family: Helvetica;
+	font-size: 13px;
 }
 
 #logo{
@@ -14,14 +15,37 @@ body{
 
 }
 
+a {
+	color: #737373;
+	text-decoration: none;
+}
+
+.header-container {
+	text-align: center;
+	width: auto;
+	height: 40px;
+}
+.header-container div {
+	float: right;
+	margin-right: 20px;
+	height: 100%;
+	position: relative;
+  	top: 50%;
+}
+
+#circle-img {
+	width: 30px;
+	border-radius: 30px;
+	margin-bottom: 10px;
+	position: relative;
+	bottom: 5px;
+}
+
+
 img {
 	width: 400px;
 	margin: 0 auto;
 	display: block;
-}
-
-ul {
-	margin: 20px auto;
 }
 
 form {
@@ -56,26 +80,11 @@ button:hover{
 	border-color: #737373;
 };
 
-div #header{
-	display: block;
-	color: #0E0E0E;
-	
-}
-.header-container{
-	width: 100%;
-	margin: 0 auto;
-}
-
-.header {
-	list-style-type: none;
-	float: right;
-	margin-right: 10px;
-}
-
-#pic {
-	width: 35px;
-	border-radius: 30px;
-	margin: 0 20px 0 10px;
+.footer-container {
+	text-align: center;
+	width: auto;
+	height: 40px;
+	bottom: 0;
 }
 
 .footer {
@@ -92,15 +101,15 @@ div #header{
 }
 
 #footer_right li {
-	margin-right: 10px;
+	margin-right: 15px;
 	display: block;
 	float: right;
-	margin-top: 10px;
+	margin-top: 12px;
 }
 
 #footer_left li {
-	margin-left: 10px;
+	margin-left: 15px;
 	display: block;
 	float: left;
-	margin-top: 10px;
+	margin-top: 12px;
 }
